@@ -1,0 +1,27 @@
+{
+    "name": "Test-timezone-db",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-spiflash-w25q128": "github:teuniverse/pxt-spiflash-w25q128#2d3d8c8f134c95947eb45539142e8e4309536ac6",
+        "pxt-timezone-db": "github:teuniverse/pxt-timezone-db1#551f29821a2e3455dfecd89c392de5b7b93c6aa6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
